@@ -12,11 +12,11 @@ app.controller('projectController', function ($scope) {
     id: 2,
     position: '6u$ 12u$(xsmall) work-item',
     title: 'GPS Assist',
-    description: 'A “cloud” based Roadside Assistance application, designed for a worry-free easy access “at Your' 
+    description: 'A “cloud” based Roadside Assistance application, designed for a worry-free easy access “at Your'
     + ' Fingertip”. It conveniently utilizes your mobile phone’s GPS capabilities to pinpoint your exact location, allowing immediate dispatch of our service providers for emergency assistance.',
     image_path: 'images/thumbs/q11_banner.png',
     link: 'https://play.google.com/store/apps/details?id=com.q11technologies.gpsassist.app'
-  },{
+  }, {
     id: 3,
     position: '6u 12u$(xsmall) work-item',
     title: 'Fil-Am Radio 24/7',
@@ -26,17 +26,17 @@ app.controller('projectController', function ($scope) {
   }, {
     id: 4,
     position: '6u$ 12u$(xsmall) work-item',
-    title: 'Pinoy Karaoke Star',
-    description: 'Pinoy Karaoke Star is an app where you sing, record and share your favorite OPM (Original Pilipino Music) songs with your family and friends anywhere in the world.',
-    image_path: 'images/thumbs/pinoy_karaoke_star_banner.png',
-    link: '#'
-  }, {
-    id: 5,
-    position: '6u 12u$(xsmall) work-item',
     title: 'MyProperty.ph',
     description: 'An app for the property seller market (developers’ brokers & agents, independent licensed brokers, private individuals) which may be used for managing their inventory of property listings.',
     image_path: 'images/thumbs/my_property_banner.png',
     link: 'https://play.google.com/store/apps/details?id=ph.myproperty.android.mypropertyph'
+  }, {
+    id: 5,
+    position: '6u 12u$(xsmall) work-item',
+    title: 'Pinoy Karaoke Star',
+    description: 'Pinoy Karaoke Star is an app where you sing, record and share your favorite OPM (Original Pilipino Music) songs with your family and friends anywhere in the world.',
+    image_path: 'images/thumbs/pinoy_karaoke_star_banner.png',
+    link: '#'
   }, {
     id: 6,
     position: '6u$ 12u$(xsmall) work-item',
