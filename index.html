@@ -5,77 +5,82 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>ceosilvajr | Portfolio</title>
-	    <link rel="icon" type="image/png" href="images/fabicon.png">
-	    <meta charset="utf-8"/>
-	    <meta name="p:domain_verify" content="37e503afc4f90341725f57f866a4a7b3"/>
-	    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-	    <!--[if lte IE 8]>
-	    <script src="assets/js/ie/custom.js"></script><![endif]-->
-	    <link rel="stylesheet" href="assets/css/main.css"/>
-	    <!--[if lte IE 8]>
-	    <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
-	</head>
-	<body id="top" ng-app ="myApp">
+<head>
+  <title>ceosilvajr | Portfolio</title>
+  <link rel="icon" type="image/png" href="images/fabicon.png">
+  <meta charset="utf-8"/>
+  <meta name="p:domain_verify" content="37e503afc4f90341725f57f866a4a7b3"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <!--[if lte IE 8]>
+  <script src="assets/js/ie/custom.js"></script><![endif]-->
+  <link rel="stylesheet" href="assets/css/main.css"/>
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
+</head>
+<body id="top" ng-app="myApp">
 
-		<!-- Header -->
-			<header id="header" ng-controller ="ceosilvaController">
-				<a class="image avatar"><img src="images/avatar.png" alt="" /></a>
-				
-				<h1><strong>{{ceo.name}}</strong></h1>
+<!-- Header -->
+<header id="header" ng-controller="ceosilvaController">
+  <a class="image avatar"><img src="images/avatar.png" alt=""/></a>
 
-				<a class="icon fa-mobile"><span class="label">Phone</span> {{ceo.phone}}</a><br/>
-				<a href="mailto:ceosilvajr@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span> {{ceo.email}}</a>
-										
-			</header>
+  <h1><strong>{{ceo.name}}</strong></h1>
 
-		<!-- Main -->
-			<div id="main" >
+  <a class="icon fa-mobile"><span class="label">Phone</span> {{ceo.phone}}</a><br/>
+  <a href="mailto:ceosilvajr@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span> {{ceo.email}}</a>
 
-				<!-- One -->
-				<section id="One" ng-controller="projectController">
-					<h2>Recent Works</h2>
-					<div class="row" > 
-						<article class={{project.position}} ng-repeat = "project in projects">
-							<a href={{project.link}} class="image fit thumb"><img src={{project.image_path}} alt=""/></a>
-							<h3>{{project.title}}</h3>
-							<p>{{project.description}}</p>
-						</article>
-					</div>
-				</section>
+</header>
 
-				<!-- Two -->
-				<section id="two" >
-					<header class="major">
-						<h2>About me</h2>
-					</header>
-					<p>I am a Software Engineer and security-oriented developer offering more than four years of experience in designing, implementing, integrating, testing and supporting enterprise applications developed in diverse, collaborative environments for web and mobile.</p>
-					<p>Some of this technologies are Java, Swift, Linux, Nginx, Node.js, MySQL, HTML, Javascript, AngularJS Android, IOS, REST, JSON, XML, Google API's, GPS, Apache, Tomcat, Git, and Jersey. I also used Android Studio, Eclipse, Xcode, IntelliJ, Slack, Source Tree, Adobe Photo Shop, Postman, Sequel Pro and Sublime Text.</p>
-				</section>
-			</div>
+<!-- Main -->
+<div id="main">
 
-		<!-- Footer -->
-			<footer id="footer" ng-controller ="ceosilvaController">
-				<ul class="icons">
-		        <li><a href={{ceo.twitterLink}} class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-		        <li><a href={{ceo.githubLink}} class="icon fa-github"><span class="label">Github</span></a></li>
-		        <li><a href={{ceo.fbLink}} class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-		        <li><a href={{ceo.linkedInLink}} class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-		    </ul>
-				<ul class="copyright">
-					<li>&copy; {{ceo.username}}</li>
-				</ul>
-			</footer>
+  <!-- One -->
+  <section id="One" ng-controller="projectController">
+    <h2>Recent Works</h2>
+    <div class="row">
+      <article class={{project.position}} ng-repeat="project in projects">
+        <a href={{project.link}} class="image fit thumb"><img src={{project.image_path}} alt=""/></a>
+        <h3>{{project.title}}</h3>
+        <p>{{project.description}}</p>
+      </article>
+    </div>
+  </section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-			<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
-			<script src="app/main.js"></script>
-	</body>
+  <!-- Two -->
+  <section id="two">
+    <header class="major">
+      <h2>About me</h2>
+    </header>
+    <p>I am a Software Engineer and security-oriented developer offering more than four years of experience in
+      designing, implementing, integrating, testing and supporting enterprise applications developed in diverse,
+      collaborative environments for web and mobile.</p>
+    <p>Some of this technologies are Java, Swift, Linux, Nginx, Node.js, MySQL, HTML, Javascript, AngularJS Android,
+      IOS, REST, JSON, XML, Google API's, GPS, Apache, Tomcat, Git, and Jersey. I also used Android Studio, Eclipse,
+      Xcode, IntelliJ, Slack, Source Tree, Adobe Photo Shop, Postman, Sequel Pro and Sublime Text.</p>
+  </section>
+</div>
+
+<!-- Footer -->
+<footer id="footer" ng-controller="ceosilvaController">
+  <ul class="icons">
+    <li><a href={{ceo.twitterLink}} class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+    <li><a href={{ceo.githubLink}} class="icon fa-github"><span class="label">Github</span></a></li>
+    <li><a href={{ceo.fbLink}} class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+    <li><a href={{ceo.linkedInLink}} class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+  </ul>
+  <ul class="copyright">
+    <li>&copy; {{ceo.username}}</li>
+  </ul>
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.poptrox.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]>
+<script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+<script src="app/main.js"></script>
+</body>
 </html>
