@@ -70,6 +70,7 @@ app.controller('ceosilvaController', function ($scope) {
     fbLink: 'https://www.facebook.com/ceosilvajr',
     linkedInLink: 'https://www.linkedin.com/in/ceosilvajr',
     githubLink: 'https://github.com/ceosilvajr',
-    twitterLink: 'https://twitter.com/ceosilvajr'
+    twitterLink: 'https://twitter.com/ceosilvajr',
+    resumeLink: 'https://docs.google.com/document/d/1zrOBkrjwRrsts0-6gVfSuDXeB5MlveY0vSMXentUGhE/edit?usp=sharing',
   };
 });
