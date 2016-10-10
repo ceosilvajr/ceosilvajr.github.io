@@ -43,14 +43,14 @@ app.controller('projectController', function ($scope) {
     title: 'Smart Load Services',
     description: 'Prepaid subscribers of wireless leader Smart Communications, Inc. (Smart) can now send text messages to other networks using Smart’s emergency load *SOS service by using this app.',
     image_path: 'images/thumbs/load_services_banner.png',
-    link: '#'
+    link: 'https://github.com/ceosilvajr/ph-telco-loader'
   }, {
     id: 7,
     position: '6u 12u$(xsmall) work-item',
     title: 'My Suki',
     description: 'It\'s a android application where you can have rewards for every purchased you made from the sari-sari store.',
     image_path: 'images/thumbs/my_suki_banner.png',
-    link: '#'
+    link: 'https://github.com/ceosilvajr/mysuki'
   }, {
     id: 8,
     position: '6u$ 12u$(xsmall) work-item',
