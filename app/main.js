@@ -71,7 +71,7 @@ app.controller('ceosilvaController', function ($scope) {
     linkedInLink: 'https://www.linkedin.com/in/ceosilvajr',
     githubLink: 'https://github.com/ceosilvajr',
     twitterLink: 'https://twitter.com/ceosilvajr',
-    resumeLink: 'https://docs.google.com/document/d/1zrOBkrjwRrsts0-6gVfSuDXeB5MlveY0vSMXentUGhE/edit?usp=sharing',
+    resumeLink: 'https://drive.google.com/file/d/0B6_jjoXcLdPlRWN2aGFFRmxZV2M/view?usp=sharing',
     stackLink: 'http://stackoverflow.com/cv/ceosilvajr'
   };
 });
